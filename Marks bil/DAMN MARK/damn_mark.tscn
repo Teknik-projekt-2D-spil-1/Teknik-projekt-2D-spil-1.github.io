@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://j6a3ptnakvvr"]
+
+[ext_resource type="Script" path="res://DAMN MARK/Sprite2D.gd" id="2_n3m0y"]
+[ext_resource type="Texture2D" uid="uid://dj27alo6nbx7m" path="res://DAMN MARK/damn mark.PNG" id="2_q3wmx"]
+
+[node name="Damn mark" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(343.25, 226.75)
+scale = Vector2(2.21533, 4.01613)
+texture = ExtResource("2_q3wmx")
+script = ExtResource("2_n3m0y")
