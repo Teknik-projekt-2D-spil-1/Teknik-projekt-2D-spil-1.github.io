@@ -1,5 +1,5 @@
 extends KinematicBody2D
-
+deez nuts
 var max_speed = 3000
 var ACCELERATION = 1500
 var friction = 1200
