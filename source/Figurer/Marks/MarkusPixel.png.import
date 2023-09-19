@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/MARK_LIVSBAR.png-5df26225f8b5ad8a50b0d5b19c4c33df.stex"
+path="res://.import/MarkusPixel.png-48ef2ba11f27532e1585f14230389430.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MARK_LIVSBAR.png"
-dest_files=[ "res://.import/MARK_LIVSBAR.png-5df26225f8b5ad8a50b0d5b19c4c33df.stex" ]
+source_file="res://Figurer/Marks/MarkusPixel.png"
+dest_files=[ "res://.import/MarkusPixel.png-48ef2ba11f27532e1585f14230389430.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -31,5 +31,5 @@ process/invert_color=false
 process/normal_map_invert_y=false
 stream=false
 size_limit=0
-detect_3d=false
+detect_3d=true
 svg/scale=1.0
