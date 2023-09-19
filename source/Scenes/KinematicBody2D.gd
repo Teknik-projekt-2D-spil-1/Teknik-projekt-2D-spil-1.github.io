@@ -13,8 +13,8 @@ func _physics_process(_delta):
 	else:
 		velocity.x = 0
 
-	if Input.is_action_pressed("jump"):
-		velocity.y = -16
+	if Input.is_action_pressed("jump") and is_on_floor():
+		velocity.y = -60
 	#-y svarer til opad
 	
 	velocity = move_and_slide(velocity)
