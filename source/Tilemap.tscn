@@ -4,3 +4,9 @@
 
 [node name="TileMap" type="TileMap" parent="."]
 format = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2( 17, 143 )
+polygon = PoolVector2Array( 97, 109, 20, 106, -18, 90, -17, 37, 303, 37 )
