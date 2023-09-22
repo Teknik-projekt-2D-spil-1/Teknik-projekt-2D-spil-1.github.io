@@ -2,6 +2,8 @@ extends KinematicBody2D
 
 var velocity = Vector2.ZERO
 
+
+
 #ganger ikke med velocity med delta, da det allerede er indbygget i funktionen 
 func _physics_process(_delta):
 	velocity.y += 3
